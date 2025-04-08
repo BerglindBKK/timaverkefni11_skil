@@ -27,7 +27,7 @@ const ShrekQuoteButton = () => {
     return (
         <div>
             {/* Displaying the random quote */}
-            {quote && <p className="text-xl font-semibold mb-2 bg-amber-300">{quote}</p>}
+            {quote && <p className="text-xl font-semibold mb-2 ">{quote}</p>}
 
             {/* BUTTON */}
             <button

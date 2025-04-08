@@ -23,7 +23,7 @@ const LiveTyping = () => {
         <div>
             <div>
                 <input type="text" id="quote"
-                    className="border-0 border-black bg-white w-full m-4"
+                    className="bg-white w-64 m-4 p-2 rounded-md"
                     onKeyDown={handleOnKeyPressed}
                 ></input>
             </div>

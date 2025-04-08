@@ -29,14 +29,14 @@ const Counter = () => {
         </div>
 
         {/* Title */}
-        <p className="m-8 text-4xl text-red-600">Welcome to Shrek's Swamp</p>
+        <p className="m-8 text-4xl">Welcome to Shrek's Swamp</p>
 
         {/* Input field */}
         <input
           type="text"
           id="quote"
           placeholder="am I useless?"
-          className="border-2 border-black bg-white w-64 m-4 p-2 rounded-md"
+          className=" bg-white w-64 m-4 p-2 rounded-md"
         />
 
         {/* ShrekQuoteButton */}
